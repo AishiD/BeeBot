@@ -8,6 +8,8 @@ def handle_response(message) -> str:
         return "Hello there!"
     if p_message == 'Who is Aishi?':
         return "Aishi Dutta is the creator of BeeBot!"
+    if p_message == 'what can you do?':
+        return "I can do a whole bunch of stuff like picking a number, rolling a dice, rating you, etc. Try me!"
     if p_message == 'roll':
         return str(random.randint(1, 6))
     if p_message == 'pick a number':
